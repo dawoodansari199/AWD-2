@@ -1,0 +1,129 @@
+@media only screen and (max-width: 920px){
+
+   .navlist{
+       flex-direction: column;
+       align-items: flex-start;
+       margin: 0%;
+    }
+    .navbar{
+       flex-direction: column-reverse  ;
+       height: 240px;
+       transition: all 0.4s ease-out;
+       align-items: flex-start;
+    }
+    .rightnav{
+       justify-content: center ;
+       flex-direction: row-reverse;
+       align-items: center;
+       padding: 0px 34px;
+       width: 40%;
+    }
+    .rightnav h1{
+       margin: 0%;
+       font-size: 15px;
+       padding: 9px 3px;
+
+ 
+    }
+    .logo{
+      padding: 9px 0px;
+    }
+    .logo img{
+      width: 40px;
+    }
+    .burger{
+       display: block;
+    }
+    .h-navresp{
+       height: 38px   ;
+    }
+    .v-classresp{
+       opacity: 0%;
+ 
+    }
+    .boxmain{
+       width: 100%;
+       flex-direction: row;
+       margin: auto;
+       max-width: 90% ;
+    }
+    .bigtext{
+       font-size: 14px;
+ 
+    }
+    .smalltext{
+       font-size: 10px;
+    }
+    .sectiontag{
+       font-size: 16px;
+ 
+    }
+    .sectionsubtag{
+       font-size: 10px;
+    }
+    .form{
+       max-width: 190px;
+    }
+    .imgfluid{
+       width: 135px;
+       border-radius: 48px;
+    }
+    .secright{
+       margin: 0%;
+       width: auto;
+       padding: 28px 30px;
+       max-width: 100%;
+ 
+    }
+    .secleft{
+      margin: 0%;
+      width: auto;
+      padding: 28px 30px;
+      max-width: 100%;
+    }
+    .btn{
+       padding: 2px 2px;
+       margin: 2px 0px;
+       width: 65px;
+       font-size: 7px;
+    }
+    .firstsection{
+       height: 40vh;
+    }
+    .shalf{
+       display: block;
+    }
+    .fhalf{
+      height: auto;
+      margin: 0%;
+    }
+    .shalf img{
+      border-radius: 50px;
+      padding: 5px 0px;
+      width: 80px;
+    }
+    .text-center{
+      font-size: 18px;
+      padding: 18px 0px;
+    }
+    .input-form{
+      margin: 12px 0px;
+      font-size: 8px;
+      width: 80%;
+
+    }
+ 
+ 
+ }
+ @media only screen and (max-width: 550px){
+   .secright{
+padding: 10px 10px;
+   }
+   .secleft{
+      padding: 10px 10px;
+   }
+   .paras{
+      width: 80%;
+      padding: 0px 6px;
+   }
+ }
