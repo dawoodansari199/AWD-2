@@ -16,7 +16,7 @@
        flex-direction: row-reverse;
        align-items: center;
        padding: 0px 34px;
-       width: 40%;
+       width: auto;
     }
     .rightnav h1{
        margin: 0%;
